@@ -31,3 +31,7 @@ function draw() {
   
   
 }
+
+function mouseClicked() {
+  window.location.href = 'scene6.html';
+}

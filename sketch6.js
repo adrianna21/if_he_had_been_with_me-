@@ -22,3 +22,7 @@ function draw() {
   textAlign(CENTER);
   text('Our Souls', 200, 750);
 }
+
+function mouseClicked() {
+  window.location.href = 'scene7.html';
+}

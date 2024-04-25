@@ -31,3 +31,7 @@ function draw() {
   textAlign(CENTER, CENTER);
   text("wordst", width / 2, height / 2);
 }
+
+function mouseClicked() {
+  window.location.href = 'index.html';
+}

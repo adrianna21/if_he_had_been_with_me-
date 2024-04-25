@@ -36,3 +36,7 @@ function draw() {
   text('let go"', width/2, 700);
 
 }
+
+function mouseClicked() {
+  window.location.href = 'scene8.html';
+}

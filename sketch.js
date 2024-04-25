@@ -21,7 +21,7 @@ function draw() {
   
   textSize(textstyle.textSize);
   fill(textstyle.fill);
-  textAlign(textstyle.texAlign);
+  textAlign(textstyle.textAlign);
   text('YOU', 200, 50);
   text('can', 300, 170);
   text('more', 150, 350);
@@ -30,3 +30,9 @@ function draw() {
   text('person', 900, 700);
  
 }
+
+function mouseClicked() {
+  window.location.href = 'scene2.html';
+}
+
+

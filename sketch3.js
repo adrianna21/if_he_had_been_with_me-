@@ -35,6 +35,10 @@ function draw() {
   currentCharacter += 1;
 }
 
+function mouseClicked() {
+  window.location.href = 'scene4.html';
+}
+
 /**
 CITE: https://editor.p5js.org/pippinbarr/sketches/bjxEfpiwS
 */
