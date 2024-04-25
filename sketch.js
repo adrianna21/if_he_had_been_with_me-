@@ -1,24 +1,32 @@
 let aura;
-let soul;
+let textstyle;
 
 function preload() {
-  aura = loadImage('https://cdn.discordapp.com/attachments/757284125097853029/1230929078748713022/auras6.gif?ex=66351b09&is=6622a609&hm=8f39ebd46199d2b9f188c60cab7755b677d97fff8a1e7f221c59aa388c20aa3f&');
-  soul = loadImage('souls1.gif');
+  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232033780408123462/auras1.gif?ex=662bf0df&is=662a9f5f&hm=bea02bba004ab126e25d36c4f35425f290a423483c4ac9ee1d06cbe37883091d&');
 }
 
 function setup() {
   createCanvas(1200, 800);
+  textstyle = { // Corrected assignment
+    textSize: 48,
+    fill: 'black',
+    textAlign: CENTER
+    
+  };
 }
 
 function draw() {
   // Display background GIF
   image(aura, 0, 0, width, height);
   
-  // Display foreground GIF
-  image(soul, 400, 10, 800, 800);
-  
-  textSize(48);
-  fill('black');
-  textAlign(CENTER);
-  text('Our Souls', 200, 750);
+  textSize(textstyle.textSize);
+  fill(textstyle.fill);
+  textAlign(textstyle.texAlign);
+  text('YOU', 200, 50);
+  text('can', 300, 170);
+  text('more', 150, 350);
+  text('than', 500, 300);
+  text('way about a', 600, 600);
+  text('person', 900, 700);
+ 
 }
