@@ -24,5 +24,5 @@ function draw() {
 }
 
 function mouseClicked() {
-  window.location.href = 'scene63.html';
+  window.location.href = 'scene6_3.html';
 }
