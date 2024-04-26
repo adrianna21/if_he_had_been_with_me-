@@ -1,8 +1,28 @@
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 html, body {
+  font-family: "VT323", monospace;
   margin: 0;
   padding: 0;
 }
 canvas {
+  font-family: "VT323", monospace;
   display: block;
   margin: auto;
 }
