@@ -3,7 +3,7 @@ let eye;
 
 function preload() {
   aura = loadImage ('auras4.gif');
-  eye = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232281185837912165/IMG_0457.png?ex=662b85c9&is=662a3449&hm=b9ef5e2efcb902fd45b511a6cb0582da23169973b3d18cf1482754d33c034d2a&');
+  eye = loadImage ('eye1.png');
 }
 
 function setup() {

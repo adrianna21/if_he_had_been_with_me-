@@ -3,7 +3,7 @@ let fruit;
 
 function preload() {
   aura = loadImage ('auras6.gif');
-  soulmates = loadImage('sunmoon.gif');
+  soulmates = loadImage('fruit.gif');
 }
 
 function setup() {

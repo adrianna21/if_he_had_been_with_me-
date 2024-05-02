@@ -4,7 +4,7 @@ let minMouseDist = 5000;
 let txt = " “I love  him the most when we fight and I am scared that he will leave me.”” ";
 
 function setup(){
-  aura = loadImage ('auras6.gif');
+  aura = loadImage ('auras2.gif');
   createCanvas(1200, 800);
 
   textSize(48);

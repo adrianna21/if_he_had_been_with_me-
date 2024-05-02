@@ -22,14 +22,14 @@ function draw() {
   }
 
   // Draw the image with the flickering opacity
-  tint(255, opacity);
+  tint(0, opacity);
   image(aura, 0, 0, width, height);
 
   // Draw the text with the flickering opacity
   fill(0, 0, 255, opacity); // Set fill color with the current opacity
   textSize(32);
   textAlign(CENTER, CENTER);
-  text("wordst", width / 2, height / 2);
+  text("“Like most of my stories, it will end tragically.” ", width / 2, height / 2);
 }
 
 function mouseClicked() {
