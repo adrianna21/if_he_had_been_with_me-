@@ -4,8 +4,8 @@ let minMouseDist = 5000;
 let txt = " “I love  him the most when we fight and I am scared that he will leave me.”” ";
 
 function setup(){
-  aura = loadImage ('auras2.gif');
   createCanvas(1200, 800);
+  aura = loadImage ('auras2.gif');
 
   textSize(48);
   textAlign(CENTER);
@@ -61,7 +61,8 @@ function setup(){
 }
 
 function draw(){
-  fill('white');
+  background(0);
+  fill(255);
 
   for(let i = 0; i < points.length; i++){
     let p = points[i][0];
@@ -81,10 +82,10 @@ function draw(){
     text(txt.charAt(i), p.x + p2.x, p.y + p2.y);
   }
 
-}
+  function mouseClicked() {
+    window.location.href = 'scene4.html';
+  }
 
-function mouseClicked() {
-  window.location.href = 'scene3.html';
 }
 
 // reference https://editor.p5js.org/creativecoding/sketches/ncNWaEkTw

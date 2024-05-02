@@ -20,7 +20,7 @@ function draw() {
   textSize(48);
   fill('black');
   textAlign(CENTER);
-  text('are connected',  width/4, 700, 600, 600);
+  text('but',  width/4, 700, 600, 600);
 }
 
 function mouseClicked() {
