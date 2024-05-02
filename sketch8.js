@@ -2,7 +2,7 @@ let aura;
 let opacity = 100; // Initial opacity
 
 function preload() {
-  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232396083121098752/auras8.gif?ex=662bf0cb&is=662a9f4b&hm=36c7d9361ddc610785f4035111ea0acfbf6cf074f907afdbc6c785339ecc9a0c&');
+  aura = loadImage ('auras8.gif');
 }
 
 function setup() {

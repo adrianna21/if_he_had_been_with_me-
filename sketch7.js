@@ -3,7 +3,7 @@ let aura;
 let opacityRange = [255, 230, 204, 153, 102, 51];
 
 function preload() {
-  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232250010763005953/auras7.gif?ex=662c1180&is=662ac000&hm=4c2cf3c104972dd519e75e601c88dc492a1d696b08f44f8afe170aa8c112c68e&');
+  aura = loadImage ('auras7.gif');
 }
 
 function setup() {

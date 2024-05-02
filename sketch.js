@@ -2,7 +2,7 @@ let aura;
 let textstyle;
 
 function preload() {
-  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232033780408123462/auras1.gif?ex=662bf0df&is=662a9f5f&hm=bea02bba004ab126e25d36c4f35425f290a423483c4ac9ee1d06cbe37883091d&');
+  aura = loadImage ('auras1.gif');
 }
 
 function setup() {

@@ -7,8 +7,7 @@ let currentCharacter = 0;
 let pageMargin = 150;
 
 function preload() {
-  
-  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232377163177787513/auras3.gif?ex=662bdf2c&is=662a8dac&hm=02fb1259030ea16810beaecd7c208f1816b2182b005f4fd8e5d7da3d674ab0a2&');
+  aura = loadImage ('auras3.gif');
   
 }
 

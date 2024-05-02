@@ -4,6 +4,7 @@ let minMouseDist = 5000;
 let txt = " “I love  him the most when we fight and I am scared that he will leave me.”” ";
 
 function setup(){
+  aura = loadImage ('auras6.gif');
   createCanvas(1200, 800);
 
   textSize(48);
@@ -60,8 +61,7 @@ function setup(){
 }
 
 function draw(){
-  background(0);
-  fill(255);
+  fill('white');
 
   for(let i = 0; i < points.length; i++){
     let p = points[i][0];

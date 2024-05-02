@@ -2,7 +2,7 @@ let aura;
 let soul;
 
 function preload() {
-  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1232270339766222869/auras4.gif?ex=662c246f&is=662ad2ef&hm=3cc2efb707242dbf90535b1dda79b22873651e5ef2bb0dae62c4e8bbb08add53&');
+  aura = loadImage ('auras6.gif');
   soul = loadImage('souls2.gif');
 }
 

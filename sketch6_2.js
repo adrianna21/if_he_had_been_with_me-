@@ -2,7 +2,7 @@ let aura;
 let soulmates;
 
 function preload() {
-  aura = loadImage('https://cdn.discordapp.com/attachments/757284125097853029/1230929078748713022/auras6.gif?ex=66351b09&is=6622a609&hm=8f39ebd46199d2b9f188c60cab7755b677d97fff8a1e7f221c59aa388c20aa3f&');
+  aura = loadImage ('auras6.gif');
   soulmates = loadImage('flower.gif');
 }
 
