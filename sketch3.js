@@ -21,6 +21,7 @@ function setup() {
 function draw() {
   
   image(aura, 0, 0, width, height);
+  fill('white');
 
   // set new variable, it shows characters 0 to the current one
   let currentString = string.substring(0, currentCharacter);
@@ -35,7 +36,7 @@ function draw() {
 }
 
 function mouseClicked() {
-  window.location.href = 'scene4.html';
+  window.location.href = 'response3.html';
 }
 
 /**

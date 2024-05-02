@@ -18,7 +18,7 @@ function draw() {
   image(soulmates, width/6, height/6, 800, 800);
   
   textSize(48);
-  fill('black');
+  fill('white');
   textAlign(CENTER);
   text('are connected',  width/4, 700, 600, 600);
 }

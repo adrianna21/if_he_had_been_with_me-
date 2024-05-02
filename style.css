@@ -17,12 +17,19 @@
 }
 
 html, body {
-  font-family: "VT323", monospace;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   padding: 0;
+  color: white;
 }
 canvas {
-  font-family: "VT323", monospace;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
   display: block;
   margin: auto;
+  color: white;
+  padding: 50px
 }

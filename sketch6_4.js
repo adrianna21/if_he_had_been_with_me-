@@ -18,7 +18,7 @@ function draw() {
   image(soul, width/4, height/35, 800, 800);
   
   textSize(48);
-  fill('black');
+  fill('white');
   textAlign(CENTER);
   text('are forver',  width/4, 700, 600, 600);
 }

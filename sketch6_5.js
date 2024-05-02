@@ -18,11 +18,11 @@ function draw() {
   image(soul, 0, 10, 800, 800);
   
   textSize(48);
-  fill('black');
+  fill('white');
   textAlign(CENTER);
   text('divergent.', 950, 750);
 }
 
 function mouseClicked() {
-  window.location.href = 'scene7.html';
+  window.location.href = 'response6.html';
 }

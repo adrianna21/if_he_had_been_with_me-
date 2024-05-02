@@ -10,7 +10,7 @@ function setup() {
   createCanvas(1200, 800);
   textSize(48);
   textAlign(CENTER);
-  fill('black');
+  fill('white');
 } 
 
 
@@ -33,5 +33,5 @@ function draw() {
 }
 
 function mouseClicked() {
-  window.location.href = 'scene6.html';
+  window.location.href = 'response4.html';
 }

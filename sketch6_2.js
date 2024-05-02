@@ -18,7 +18,7 @@ function draw() {
   image(soul, width/6, height/35, 800, 800);
   
   textSize(48);
-  fill('black');
+  fill('white');
   textAlign(CENTER);
   text('but',  width/4, 700, 600, 600);
 }

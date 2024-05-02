@@ -38,5 +38,5 @@ function draw() {
 }
 
 function mouseClicked() {
-  window.location.href = 'scene8.html';
+  window.location.href = 'response7.html';
 }

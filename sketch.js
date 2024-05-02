@@ -9,7 +9,7 @@ function setup() {
   createCanvas(1200, 800);
   textstyle = { // Corrected assignment
     textSize: 48,
-    fill: 'black',
+    fill: 'white',
     textAlign: CENTER
     
   };
@@ -32,7 +32,7 @@ function draw() {
 }
 
 function mouseClicked() {
-  window.location.href = 'scene2.html';
+  window.location.href = 'response1.html';
 }
 
 

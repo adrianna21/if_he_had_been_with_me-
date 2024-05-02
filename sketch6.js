@@ -18,7 +18,7 @@ function draw() {
   image(soul, 400, 10, 800, 800);
   
   textSize(48);
-  fill('black');
+  fill('white');
   textAlign(CENTER);
   text('Our Souls', 200, 750);
 }

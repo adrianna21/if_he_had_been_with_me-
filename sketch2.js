@@ -69,7 +69,7 @@ function draw(){
   // Display background GIF
   image(aura, 0, 0, width, height);
     
-  fill(255);
+  fill('white');
 
   for(let i = 0; i < points.length; i++){
     let p = points[i][0];
@@ -89,11 +89,10 @@ function draw(){
     text(txt.charAt(i), p.x + p2.x, p.y + p2.y);
   }
 
-
-function mouseClicked() {
-    window.location.href = 'scene3.html';
-  }
-
 }
 
+function mouseClicked() {
+    window.location.href = 'response2.html';
+  }
+  
 // reference https://editor.p5js.org/creativecoding/sketches/ncNWaEkTw

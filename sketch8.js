@@ -9,6 +9,7 @@ function setup() {
   createCanvas(1200, 800);
   textSize(48);
   textAlign(CENTER);
+  image(aura, 0, 0, width, height);
 }
 
 function draw() {
@@ -23,7 +24,6 @@ function draw() {
 
   // Draw the image with the flickering opacity
   tint(0, opacity);
-  image(aura, 0, 0, width, height);
 
   // Draw the text with the flickering opacity
   fill(0, 0, 255, opacity); // Set fill color with the current opacity
@@ -33,5 +33,5 @@ function draw() {
 }
 
 function mouseClicked() {
-  window.location.href = 'index.html';
+  window.location.href = 'response8.html';
 }
