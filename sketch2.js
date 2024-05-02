@@ -3,9 +3,14 @@ let spacing = 30;
 let minMouseDist = 5000;
 let txt = " “I love  him the most when we fight and I am scared that he will leave me.”” ";
 
+
+function preload() {
+  aura = loadImage('https://cdn.discordapp.com/attachments/757716444329803858/1235420363802804244/auras2.gif?ex=66344e5f&is=6632fcdf&hm=650ba16fde1d7ffa93b98a296b688a73005ebba5ccc6c8b6bc9a042f8bb2a897&');
+}
+
 function setup(){
   createCanvas(1200, 800);
-  aura = loadImage ('auras2.gif');
+  
 
   textSize(48);
   textAlign(CENTER);
@@ -61,7 +66,9 @@ function setup(){
 }
 
 function draw(){
-  background(0);
+  // Display background GIF
+  image(aura, 0, 0, width, height);
+    
   fill(255);
 
   for(let i = 0; i < points.length; i++){
