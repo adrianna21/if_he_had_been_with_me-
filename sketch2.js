@@ -89,8 +89,9 @@ function draw(){
     text(txt.charAt(i), p.x + p2.x, p.y + p2.y);
   }
 
-  function mouseClicked() {
-    window.location.href = 'scene4.html';
+
+function mouseClicked() {
+    window.location.href = 'scene3.html';
   }
 
 }
