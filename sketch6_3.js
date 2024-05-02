@@ -1,9 +1,9 @@
 let aura;
-let fruit;
+let soul;
 
 function preload() {
   aura = loadImage ('auras6.gif');
-  soulmates = loadImage('fruit.gif');
+  soul = loadImage('fruit.gif');
 }
 
 function setup() {
@@ -15,7 +15,7 @@ function draw() {
   image(aura, 0, 0, width, height);
   
   // Display foreground GIF
-  image(fruit, width/6, height/6, 800, 800);
+  image(soul, width/6, height/35, 800, 800);
   
   textSize(48);
   fill('black');

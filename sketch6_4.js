@@ -1,9 +1,9 @@
 let aura;
-let soulmates;
+let soul;
 
 function preload() {
   aura = loadImage ('auras6.gif');
-  soulmates = loadImage('element.gif');
+  soul = loadImage('element.gif');
 }
 
 function setup() {
@@ -12,15 +12,15 @@ function setup() {
 
 function draw() {
   // Display background GIF
-  image(element, 0, 0, width, height);
+  image(aura, 0, 0, width, height);
   
   // Display foreground GIF
-  image(soulmates, width/6, height/6, 800, 800);
+  image(soul, width/4, height/35, 800, 800);
   
   textSize(48);
   fill('black');
   textAlign(CENTER);
-  text('are forever',  width/4, 700, 600, 600);
+  text('are forver',  width/4, 700, 600, 600);
 }
 
 function mouseClicked() {

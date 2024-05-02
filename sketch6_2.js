@@ -1,9 +1,9 @@
 let aura;
-let soulmates;
+let soul;
 
 function preload() {
   aura = loadImage ('auras6.gif');
-  soulmates = loadImage('flower.gif');
+  soul = loadImage('flower.gif');
 }
 
 function setup() {
@@ -15,12 +15,12 @@ function draw() {
   image(aura, 0, 0, width, height);
   
   // Display foreground GIF
-  image(flower, width/6, height/6, 800, 800);
+  image(soul, width/6, height/35, 800, 800);
   
   textSize(48);
   fill('black');
   textAlign(CENTER);
-  text('but',  width/4, 700, 600, 600);
+  text('are connected',  width/4, 700, 600, 600);
 }
 
 function mouseClicked() {
