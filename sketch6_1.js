@@ -1,9 +1,13 @@
-let aura;
-let soulmates;
+
+let souls = [];
+let index = 0
+let question = "do you think we are together in every universe?";
 
 function preload() {
-  aura = loadImage ('auras6.gif');
-  soulmates = loadImage('sunmoon.gif');
+  souls.push(loadImage('sunmoon.gif'));
+  souls.push(loadImage('fruit.gif'));
+  souls.push(loadImage('element.gif'));
+
 }
 
 function setup() {
@@ -12,17 +16,41 @@ function setup() {
 
 function draw() {
   // Display background GIF
-  image(aura, 0, 0, width, height);
+  background ('black');
   
-  // Display foreground GIF
-  image(soulmates, width/6, height/6, 800, 800);
-  
-  textSize(48);
+  image(souls[index], width/5, height/2 - 400, 800, 800);
+
+  textStyle(ITALIC);
+  fill(102,'white');
+  text('click to see the alternate universes', width/2-900, height/2 - 380, 1000, 800);
+  text('hover over question for answer', width/2-900, height/2 - 350, 1000, 800);
+  text('press any key to move forward', width/2-900, height/2 - 320, 1000, 800);
+
+
+  textSize(24);
   fill('white');
   textAlign(CENTER);
-  text('are connected',  width/4, 700, 600, 600);
+  text(question,  width/4, 700, 600, 600);
 }
 
 function mouseClicked() {
-  window.location.href = 'scene6_2.html';
+  index = (index + 1) % souls.length;
+}
+
+function keyPressed() {
+  window.location.href = 'scene6_5.html';
+}
+
+function mouseMoved() {
+  let textX = width/4;
+  let textY = 500;
+  let textWidth = 600;
+  let textHeight = 300;
+  if (mouseX > textX && mouseX < textX + textWidth && mouseY > textY && mouseY < textY + textHeight) {
+    fill('yellow');
+    question = "i hope so :)";
+  } else {
+    fill('white');
+    question = "do you think we are together in every universe?";
+  }
 }

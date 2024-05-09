@@ -26,6 +26,7 @@ function draw() {
   fill('black');
   ellipse(x, y, 190, 190); 
   
+  fill ('white');
   text('“I had loved you since the first moment I saw you,', 0, 50, 400, 400);
   text('and I would love you forever.”', 850, 750,);
   

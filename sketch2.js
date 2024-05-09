@@ -92,7 +92,7 @@ function draw(){
 }
 
 function mouseClicked() {
-    window.location.href = 'response2.html';
-  }
+  window.location.href = 'scene3.html';
+}
   
 // reference https://editor.p5js.org/creativecoding/sketches/ncNWaEkTw

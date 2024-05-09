@@ -20,9 +20,10 @@ function draw() {
   textSize(48);
   fill('white');
   textAlign(CENTER);
-  text('divergent.', 950, 750);
+  text('"...but our paths are forever divergent.”', width/2, height/2 - 100, 500, 600);
 }
 
 function mouseClicked() {
-  window.location.href = 'response6.html';
+  window.location.href = 'scene7.html';
 }
+
